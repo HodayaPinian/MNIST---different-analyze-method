@@ -6,9 +6,9 @@ It has a training set of 60,000 examples, and a test set of 10,000 examples.
 Every image has 28*28 pixel, that provide us a scan of a handwritten digit from 0 to 9.
 Each pixel symbolic the color by the numbers 0 - 255 on the grayscale.
 
-For use the data for SVM ,KNN, ANN we will flatten the image, so we will get 28*28 = 784 inputs.
+For using the data on SVM ,KNN, ANN method we will flatten the image, so we will get 28*28 = 784 inputs.
 Because the data is relative simplicity, we can use them for ML modlinig for classification.
 
-You can get the data from mnist library( https://pypi.org/project/python-mnist/ ) or from TensorFlow tutiriol library(https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist/load_data). 
-Also i'm adding here the flttern csv files of the training and test set (got them from exelent tutiriol- https://www.python-course.eu/neural_network_mnist.php )
+You can get the data from mnist library( https://pypi.org/project/python-mnist/ ) or from TensorFlow tutorial library(https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist/load_data). 
+Also i'm adding here the flatten csv files of the training and test set (got them from exelent tutorial- https://www.python-course.eu/neural_network_mnist.php )
 
