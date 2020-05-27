@@ -10,5 +10,5 @@ For using the data on SVM ,KNN, ANN method we will flatten the image, so we will
 Because the data is relative simplicity, we can use them for ML modlinig for classification.
 
 You can get the data from mnist library( https://pypi.org/project/python-mnist/ ) or from TensorFlow tutorial library(https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist/load_data). 
-Also i'm adding here the flatten csv files of the training and test set (got them from exelent tutorial- https://www.python-course.eu/neural_network_mnist.php )
+Also i'm adding here the flatten (784 inputs) csv files of the training and test set with their label in the first row. (got them from excellent tutorial- https://www.python-course.eu/neural_network_mnist.php )
 
