@@ -19,8 +19,8 @@ classifier.fit(x_train, y_train)
 from sklearn.model_selection import cross_val_score
 accuracies = cross_val_score(estimator = classifier, X = x_train, y = y_train, cv = 10)
 
-# the best parameters are:
-# for self check, you can use gridSearch- 
+#the best parameters are:
+#for self check, you can use gridSearch to see what parameters are preferred- 
 """
 from sklearn.model_selection import GridSearchCV
 parameters = [{'C': [13, 4, 5, 7, 10, 100], 'gamma': [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09]},
