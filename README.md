@@ -12,4 +12,4 @@ Because the data is relative simplicity, we can use them for ML modlinig for cla
 You can get the data from mnist library( https://pypi.org/project/python-mnist/ ) or from TensorFlow tutorial library(https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist/load_data). 
 Also i'm adding here the flatten (784 inputs) csv files of the training and test set with their label in the first row. (got them from excellent tutorial- https://www.python-course.eu/neural_network_mnist.php )
 
-I upload two examples to how load the data, attached
+I upload two examples to how load the data, attached in load_data.py file.
