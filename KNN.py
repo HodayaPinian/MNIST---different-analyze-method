@@ -1,4 +1,5 @@
 ## KNN- k nearest neighbor 
+# accuracy - 0.985
 
 import tensorflow as tf
 import numpy as np
@@ -44,4 +45,5 @@ grid_search = GridSearchCV(estimator = classifier,
                            n_jobs = -1)
 grid_search = grid_search.fit(x_train, y_train)
 best_accuracy = grid_search.best_score_
-best_pa
+best_parameters = grid_search.best_params_
+"""
