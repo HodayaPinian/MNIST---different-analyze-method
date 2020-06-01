@@ -30,10 +30,10 @@ classifier.fit(x_train, y_train, batch_size = 10, epoch = 100)
 
 loss, accuracy  = classifier.evaluate(x_test, y_test, verbose=False)
 
-# for visulaize the accuracy trohw epochs : 
+#for visualize the accuracy through the epochs: 
 """
 import matplotlib.pyplot as plt
-history =classifier.fit(x_train, y_train, validation_split = 0.1, batch_size = 100, nb_epoch = 10)
+history =classifier.fit(x_train, y_train, validation_data=(x_test, y_test), batch_size = 10, nb_epoch = 100)
 print(history.history.keys()) #names
 plt.plot(history.history(['accuracy']))
 plt.plot(history.history['val_accuracy'])
