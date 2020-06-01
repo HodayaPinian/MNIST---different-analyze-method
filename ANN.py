@@ -1,4 +1,5 @@
-# 0.986
+# ANN
+# accuracy -  0.986
 from keras.models import Sequential
 from keras.layers import Dense
 
