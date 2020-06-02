@@ -1,4 +1,4 @@
-# MNIST---different-method
+# MNIST---different-analyze-method
 Exeplore MNIST data with different ML and DL method - SVM , KNN , ANN , CNN
 
 MNIST database provide us a large database of handwritten digits, which is a great start in the ML field.
