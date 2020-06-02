@@ -45,3 +45,5 @@ plt.ylabel('accuracy')
 plt.xlabel('epoch')
 plt.legend(['training', 'validation'], loc='best')
 plt.show()
+
+
