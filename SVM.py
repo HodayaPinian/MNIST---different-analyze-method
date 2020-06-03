@@ -1,4 +1,5 @@
 ## SVM - support vector machine
+# accuracy - 0.983
 
 import numpy as np
 import pandas as pd
@@ -25,6 +26,10 @@ y_test = y_test[idx2]
 from sklearn.svm import SVC
 classifier = SVC(C=5, gamma=0.05)      
 classifier.fit(x_train, y_train)
+
+# accuracy
+from sklearn.metrics import accuracy_score
+accuracy = accuracy_score(y_test,y_pred)
 
 #cross validation accuracy
 from sklearn.model_selection import cross_val_score
